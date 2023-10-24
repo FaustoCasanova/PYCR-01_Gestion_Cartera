@@ -4,7 +4,7 @@
 
 
 #-------------------------------------------------------------------------------------------------------
-#									 \ Informacion de las Tablas /
+#					\ Informacion de las Tablas /
 -- > Tabla clientes
 SELECT * FROM cartera.clientes LIMIT 10		;
 
@@ -19,7 +19,7 @@ SELECT * FROM cartera.cobros LIMIT 10		;
 
 
 #-------------------------------------------------------------------------------------------------------
-# 									\ Analisis Exploratorio Parte 1 /
+# 					\ Analisis Exploratorio Parte 1 /
 
 -- > 1) Cuantos creditos se otorgaron por cada mes y cual fue su Monto Total respectivo ?
 -- > 2) Cuantos creditos se cobraron por cada mes y  cual fue su Monto Total respectivo ?
@@ -38,9 +38,10 @@ SELECT * FROM cartera.cobros LIMIT 10		;
 DROP VIEW IF EXISTS cartera.Explorar_1 ;
 CREATE VIEW cartera.Explorar_1 AS
 SELECT 
-	C1.mes_id , C1.mes , 
+    C1.mes_id , C1.mes , 
     C1.Creditos_dados , C2.Creditos_cobrados ,
     C1.Monto_credito  , C2.Monto_cobrado     ,
+        	
 	SUM(C1.Monto_credito) OVER (ORDER BY C1.mes_id) AS Cartera_Acumulada ,
     SUM(C2.Monto_cobrado) OVER (ORDER BY C1.mes_id) AS Cobros_Acumulados ,
     SUM(C1.Monto_credito) OVER (ORDER BY C1.mes_id) - SUM(C2.Monto_cobrado) OVER (ORDER BY C1.mes_id) AS Saldo_por_cobrar
