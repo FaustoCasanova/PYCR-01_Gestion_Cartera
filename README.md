@@ -25,3 +25,5 @@ El proyecto esta dividido en 3 secciones importantes:
 1) Python   - Simula los datos y crea las tablas a usar
 2) MYSQL    - Analisis exploratorio a partir de las tablas
 3) Power BI - Analisis explorarotio pero en un Dashboard 
+
+![Estructura_del_Proyecto](Images/Estructura_del_Proyecto.jpg)
