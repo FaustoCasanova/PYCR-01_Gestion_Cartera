@@ -85,15 +85,11 @@ Por lo que se buscará responder las preguntas siguientes:
 - [ ] 12) De los Montos Vencidos asignarle una clasificacion en base a los dias que tienen vencidos 
 - [ ] 13) Que porcentage de la cartera total representa cada clasificacion ?
 
-#### Breve Analisis de Clientes
-- [ ] 14) Quienes son el Top 5 de clientes que mas solicitan creditos por mes
-- [ ] 15) Cual es el Top 5 de clientes con mejores Promedios de pago en este semestre
-- [ ] 16) Cual es el Top 5 de clientes con peores  Promedios de pago en este semestre
 
 ---
 
 ### Analisis Exploratorio - POWER BI
-En este analisis se busca responder las mismas preguntas anteriores pero elaborando un DashBoard en Power BI
+En este analisis se busca responder las mismas preguntas anteriores pero mediante la creacion de Medidas DAX adecuadas y un Dashboard que resuma la informacion en Power BI 
 
 
 
