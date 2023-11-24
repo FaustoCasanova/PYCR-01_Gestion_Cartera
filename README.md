@@ -6,8 +6,8 @@
 El presente proyecto busca simular el comportamiento de la cartera de créditos de una empresa "x" para luego realizar un análisis exploratorio y extraer información e indicadores relevantes afines
 al Area de Crédito y Cobranzas que permitirán una gestion adecuada de la cartera de créditos
 
-Resultados del Analisis Exploratorio
-[Enlace al Portafolio](https://faustocasanova.github.io/PYCR_01_report.html)
+#### Resultados del Analisis Exploratorio [Enlace al Portafolio](https://faustocasanova.github.io/PYCR_01_report.html)
+  
 ---
 
 ### Requisitos de Software y Librerias 
